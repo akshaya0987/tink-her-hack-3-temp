@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Travel Website</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Explore Travel</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#photos">photos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <section id="home">
+        <h2>Your Journey Begins Here</h2>
+        <p>Explore the world and find your next adventure with Explore Travel!</p>
+        <div class="search-container">
+            <form action="/search" method="GET" class="search-bar">
+              <input type="text" name="query" placeholder="Search here..." required>
+              <button type="submit">Search</button>
+            </form>
+          </div>
+         
+    </section>
+
+    <section id="destinations">
+        <h2>Top Destinations</h2>
+        <div class="destination-card">
+            <h3>vagamon</h3>
+
+            <img src="https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcTYuVbGvzh43TH_04raY70LyfCAzXGlZ_pCPKZhbhl2BiNVA0WRNIG0himEVbyltH3Y"style="width: 300px; height: auto;" alt="destination 1">
+            <p>Surrounded by lush tea gardens, verdant pine forests and small waterfalls, Vagamon is home to three hills, namely, Thangal hill, Murugan hill and Kurisumala. The hill station is perfect for adventure-seekers and nature-lovers.Vagamon's culture is a rich blend of traditions and modernity, deeply rooted in Malayali customs. The local festivals, especially Onam and Vishu, are celebrated with great fervor, showcasing vibrant performances, traditional games, and sumptuous feasts. </p>
+        </div>
+        <div class="destination-card">
+            <h3>Chokramudi peak in Munnar</h3>
+            <img src="https://media2.thrillophilia.com/images/photos/000/035/746/original/chokra11.jpg?width=1600&height=775"style="width: 300px; height: auto;" alt="Destination 2">
+            <p>Surrender yourself to the unspoiled beauty of Chokramudi Peak on your Munnar tour. An ideal destination for nature buffs and adventure seekers, Chokramudi Peak is an isolated peak in this hill station that promises to offer a kind of experience you’ll cherish for your entire life. It’s a beautiful location encompassed by snow-capped ranges from all around the area and has scenic surroundings for tourists looking to attain peace of mind in tranquility.
+
+                Located in the Eravikulam National Park and at a height of nearly 7200 feet above sea level, Chokramudi Peak is one of the highest peaks in Munnar that welcomes people from different corners of the world to look over the Idukki Dam, lush-green tea plantations, dense forestation, and jaw-dropping mountains from the top.</p>
+        </div>
+        <div class="destination-card">
+            <h3>Nelliyampathy</h3>
+            <img src=  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/The_Western_Ghats003.jpg/1200px-The_Western_Ghats003.jpg"style="width: 300px; height: auto;" alt="Destination 3">
+            <p>Nelliyampathy is a hill station within the Nelliyampathy Forest Reserve, in the southwest Indian state of Kerala. The road to it, which goes through the dense forests of the Western Ghats, is known for its many hairpin turns. To the west is Kesavan Para, a vantage point with views of nearby tea plantations. Farther west is the 19th-century Pothundi Dam. Northeast is the Seetharkundu Viewpoint, with waterfalls nearby
+            </p>
+        </div>
+        <div class="destination-card">
+            <h3>Edakkal Caves</h3>
+            <img src="https://www.sterlingholidays.com/activities/vythiri/sterling-vythiri-wayanad-edakkal-caves.jpg.imgw.1280.1280.jpeg"style="width: 300px; height: auto;" alt="Destination 3">
+            <p>The Edakkal caves are two natural caves at a remote location at Edakkal, 25 km from Kalpetta in the Wayanad district of Kerala in India. They lie 1,200 m above sea level on Ambukutty Mala, near an ancient trade route connecting the high mountains of Mysore to the ports of the Malabar Coast.
+            </p>
+        </div>
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a travel agency dedicated to helping you explore the world's most exciting destinations.Our mission to craft unforgattablr experiences that bring people closer to the cultures,landscapes,and communities they visit.Our team belive thats travel has the power to transform and inspire.Join us on a journey of discovery and exploration.</p>
+    
+    we believe that travel is more than just visiting new places – it’s about discovering yourself, connecting with new cultures, and creating memories that last a lifetime. Our journey started when a group of avid travelers wanted to help others experience the world in a way that was both authentic and seamless. Today, we are a team of passionate travel experts dedicated to curating unforgettable adventures for every type of traveler.
+
+    We specialize in crafting personalized itineraries, offering exclusive deals, and ensuring that your trip is not only enjoyable but also responsible and sustainable. Whether you're looking for an off-the-beaten-path adventure, a relaxing beach getaway, or a cultural immersion, we've got you covered.
+    
+    What makes us different? Our commitment to quality, customer care, and our insider knowledge of hidden gems around the world. We pride ourselves on offering exceptional experiences that you won’t find anywhere else. Our mission is to inspire wanderlust, create meaningful journeys, and help travelers explore the world responsibly.
+    Join us on a journey that will change the way you see the world.We believe that travel should be more than just a checklist of sights to see. It’s about curating experiences that resonate with you, offering local insights, and crafting journeys that reflect the essence of a destination. Our extensive network of partners ensures you get exclusive deals, insider access, and one-of-a-kind experiences. We’re here to help you discover new places and rediscover yourself along the way. Whether it's a spontaneous weekend getaway or a once-in-a-lifetime expedition, we tailor your experience to match your unique travel style.
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="your-backend-endpoint" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+      
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone number">Phone number</label>
+            <input type="phone number" id="phone number" name="phone number" required>
+      
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+      
+            <button type="submit">Send Message</button>
+          </form>
+
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Explore Travel | All rights reserved</p>
+    </footer>
+
+</body>
+</html>
+
+   
+
+
+
+  
+
