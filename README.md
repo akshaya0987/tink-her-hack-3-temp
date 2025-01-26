@@ -2,13 +2,12 @@
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Akshaya R Deepu]
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: [Akshaya R Deepu] - [Sree Narayana Gurukulam college of Engineering]
+
 
 ### Hosted Project Link
 [mention your project hosted project link here]
