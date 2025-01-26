@@ -10,21 +10,22 @@
 
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+[[mention your project hosted project link her](https://stunning-dango-fd0192.netlify.app/)e]
 
 ### Project Description
-[2-3 lines about what your project does]
+[An affordable travel website is an online platform designed to help users find and book budget-friendly travel options. It focuses on offering affordable flights, accommodations, tours, and experiences while providing helpful resources to plan cost-effective trips. The website typically features:]
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+[ Prices often rise during peak seasons, making it harder to find affordable options.
+Complicated Planning: Travel planning can be overwhelming, especially for families who are unfamiliar with the logistics, such as booking flights, finding accommodation, or navigating transportation. Without knowledge of affordable options, families may feel unsure about how to plan a cost-effective trip.]
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+[ Provide Financial Assistance and Payment Plans ,gave more informations about their destination etc.]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
+- [html css]
 - [Frameworks used]
 - [Libraries used]
 - [Tools used]
@@ -35,7 +36,7 @@ For Hardware:
 - [List tools required]
 
 ### Implementation
-For Software:
+For Software:visual studio code
 # Installation
 [commands]
 
